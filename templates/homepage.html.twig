@@ -1,0 +1,13 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+    <div class="jumbotron">
+        <h1 class="display-4">Bienvenue sur CarDB</h1>
+        <p class="lead">Une base de donnée de voiture</p>
+        <hr class="my-4">
+        <p>Pour commencer vous pouvez parcourir la liste des voitures</p>
+        <a class="btn btn-primary" href="{{ path('car_list') }}" role="button">Explorer les voitures</a>
+    </div>
+
+{% endblock %}
